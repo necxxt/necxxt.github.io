@@ -1,0 +1,27 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#logo {
+  background: url("logo.svg");
+  width: 264px;
+  height: 264px;
+}
+
+@media (prefers-color-scheme: dark) {
+  body,
+  html {
+    background-color: #000000;
+  }
+}
